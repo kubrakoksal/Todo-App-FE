@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const ip = process.env.IP_ADDRESS || 'localhost';
-const port = process.env.PORT || '8080';
+const ip = process.env.APP_IP_ADDRESS || 'localhost';
+const port = process.env.APP_PORT || '8080';
 const baseUrl = `http://${ip}:${port}/v1`;
 
 export const LOGIN_URL = `${baseUrl}/auth/login`;
