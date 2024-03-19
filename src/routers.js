@@ -7,11 +7,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
     {
-        name: "LoginPage",
-        component: LoginPage,
-        path: "/"
-    },
-    {
         name: "SignUp",
         component: SignUp,
         path: "/signUp"
